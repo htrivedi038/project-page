@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(37, 41, 41);
+        }
+        .projectSection {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .projectSection h2 {
+            color: rgb(202, 103, 103);
+        }
+
+        .procards {
+            width: 80%;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .procard {
+            width: 30%;
+            height: 65%;
+            box-shadow: 0px 0px 10px #11e2d876;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            line-height: 5vh;
+        }
+
+        .procard .img img {
+            width: 100px;
+            height: 100px;
+            border-radius: 20%;
+        }
+
+        .procard h3 {
+            color: rgb(202, 25, 25);
+        }
+
+        .procard p {
+            margin-top: 4%;
+            color: rgb(43, 25, 25);
+            font-size: 0.7rem;
+        }
+
+        .procard button {
+            margin-top: 6%;
+            width: 90%;
+            height: 5vh;
+            background-color: #127E78;
+            color: white;
+            outline: none;
+            border-radius: 4px;
+            outline: none;
+            border: 1px solid #127E78;
+            cursor: pointer;
+        }
+
+        .procard button a {
+            text-decoration: none;
+            color: rgb(100, 8, 8);
+            background-color: #127E78;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            height: 100px;
+            background-color: rgb(85, 155, 155);
+            font-size: 20px;
+            align-items: center;
+
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 20px;
+            cursor: pointer;
+            color: rgb(20, 18, 18);
+            position: relative;
+            right: 30px;
+        }
+
+        nav ul li :hover {
+            color: aqua;
+            font-size: 22px;
+
+        }
+
+        nav .p {
+            margin: 35px;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(25, 21, 32);
+            font-weight: 900;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="p"><b>TECHMATES</b></div>
+            <div class="n">
+                <ul>
+                    <li><b><a style="text-decoration: none;
+                        color: black;" href="http://127.0.0.1:5501/full%20stack/portfolio/index.html">Home</a> </b>
+                    </li>
+                    <li><b>Project</b></li>
+                    <li><b><a style="text-decoration: none;
+          color: black;" href="http://127.0.0.1:5500/full%20stack/portfolio/contact.html">Contact</a></b></li>
+                    <li><b><a style="text-decoration: none;
+                        color: black;" href="http://127.0.0.1:5500/full%20stack/portfolio/About.html">About</a></b>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="projectSection" id="projects">
+        <h2>PROJECTS</h2>
+        <div class="procards">
+            <div class="procard">
+                <div class="img"><img src="spotify.png" alt=""></div>
+                <h2>Spotify-clone</h2>
+                <p style="font-size: large; color: azure;">it is music player</p>
+                <button> <a href="https://github.com/htrivedi038/spotify-clone.git">Visit Link</a></button>
+            </div>
+            <div class="procard">
+                <div class="img"><img src="puzzle.jpg" ?auto=format&fit=crop" alt=""></div>
+                <h2>Puzzle</h2>
+                <p style="font-size: large;color: azure;">Sliding Puzzle</p>
+
+                <button> <a href="https://github.com/Amitsharma7300/Sliding-puzzle.git">Visit Link</a></button>
+            </div>
+            <div class="procard">
+                <div class="img"><img src="vit.jpg" alt=""></div>
+                <h2>Registration-Form</h2>
+                <p style="font-size: large;color: azure;">It is Hostel Registration-Form</p>
+
+                <button> <a href="https://github.com/htrivedi038/Hostel-Form.git">Visit Link</a></button>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
